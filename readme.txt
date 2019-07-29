@@ -1,0 +1,16 @@
+Spring注解驱动开发
+1.容器(入口配置类,测试类)
+    AnnotationConfigApplicationContext
+    组件添加
+    组件赋值
+    组件注入
+    AOP
+    声明式事务
+2.扩展原理
+    BeanFactoryPostProcessor
+    BeanDefinitionRegistryPostProcessor
+    ApplicationListenr
+    Spring容器创建过程
+3.web
+    servlet3.0
+    异步请求
