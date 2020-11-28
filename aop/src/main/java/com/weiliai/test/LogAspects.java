@@ -13,7 +13,7 @@ import java.util.Arrays;
 @Aspect
 public class LogAspects {
 
-    @Pointcut("execution(public int com.weiliai.test.MathCalulator.*(..))")
+    @Pointcut("execution(public int com.weiliai.test.MathCalculator.*(..))")
     public void pointCut(){}
 
     @Before("pointCut()")
