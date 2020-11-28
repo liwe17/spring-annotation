@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Primary;
 /**
  * @author: Doug Li
  * @Date: 2019/7/22
- * @Describe:自动装配
+ * @Describe: 自动装配
  *  Spring利用依赖注入(DI),完成IOC容器中各个组件的依赖关系赋值
  *  1.@Autowire 自动注入
  *      1>默认优先按照类型去容器中找对应的组件:applicationContext.getBean(BookService.class);

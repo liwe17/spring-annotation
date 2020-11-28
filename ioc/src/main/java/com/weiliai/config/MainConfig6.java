@@ -26,7 +26,7 @@ import java.beans.PropertyVetoException;
  * 3>没有标注环境标识的bean在任何环境下都会加载.
  * 激活环境
  *  1.命令行动态参数:在JVM虚拟机参数位置加载:-Dspring.profiles.active=test
- *  2.代码的方式:激活某种环境pcom.weiliai.ioc.TestAnnotation.ublic void test08Profile(){
+ *  2.代码的方式:激活某种环境com.weiliai.ioc.TestAnnotation.public void test08Profile(){
  */
 @Profile("test")
 @Configuration

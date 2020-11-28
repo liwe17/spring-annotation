@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * @author: Doug Li
  * @Date: 2019/7/22
- * @Describe:
+ * @Describe: 自定义类型过滤器
  */
 public class MyTypeFilter implements TypeFilter {
 

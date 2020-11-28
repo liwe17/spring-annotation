@@ -10,7 +10,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 /**
  * @author: Doug Li
  * @Date: 2019/7/22
- * @Describe:判断是否是linux系统
+ * @Describe: 判断是否是linux系统
  */
 public class LinuxConditional implements Condition {
     /**

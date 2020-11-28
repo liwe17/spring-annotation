@@ -1,7 +1,7 @@
 package com.weiliai.config;
 
 import com.weiliai.test.LogAspects;
-import com.weiliai.test.MathCalulator;
+import com.weiliai.test.MathCalculator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -128,8 +128,8 @@ public class MainConfig1 {
 
     //业务逻辑类加入容器中
     @Bean
-    public MathCalulator mathCalulator(){
-        return new MathCalulator();
+    public MathCalculator mathCalculator(){
+        return new MathCalculator();
     }
 
     //切面类加入到容器中

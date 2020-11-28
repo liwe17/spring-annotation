@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 /**
  * @author: Doug Li
  * @Date: 2019/7/22
- * @Describe:配置类==配置文件
+ * @Describe: 配置类==配置文件
  */
 @Configuration  //告诉spring这是一个配置类
 @ComponentScan(value = "com.weiliai",includeFilters ={

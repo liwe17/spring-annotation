@@ -5,7 +5,7 @@ package com.weiliai.test;
  * @Date: 2019/7/23
  * @Describe:
  */
-public class MathCalulator {
+public class MathCalculator {
 
     public int div(int i,int j){
         return i/j;

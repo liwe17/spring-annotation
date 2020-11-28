@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Import;
 /**
  * @author: Doug Li
  * @Date: 2019/7/22
- * @Describe:配置类==配置文件
+ * @Describe: 配置类==配置文件
  */
 @Configuration  //告诉spring这是一个配置类
 @Conditional({WindowsConditional.class}) //给类添加判断注解

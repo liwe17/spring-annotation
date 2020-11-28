@@ -15,7 +15,7 @@ import java.util.Arrays;
 /**
  * @author: Doug Li
  * @Date: 2019/7/22
- * @Describe:
+ * @Describe: 测试类
  */
 public class TestAnnotation {
 
