@@ -14,6 +14,8 @@ public class TestExt {
     @Test
     public void test(){
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(ExtConfig.class);
+//        applicationContext.publishEvent(new ApplicationEvent("发布一个事件") {
+//        });
         applicationContext.close();
     }
 }
