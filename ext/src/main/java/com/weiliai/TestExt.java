@@ -1,10 +1,7 @@
 package com.weiliai;
 
 import com.weiliai.config.ExtConfig;
-<<<<<<< HEAD
-=======
 import com.weiliai.ext.Red;
->>>>>>> 12b09ea (关联远程仓库)
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -20,10 +17,7 @@ public class TestExt {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(ExtConfig.class);
 //        applicationContext.publishEvent(new ApplicationEvent("发布一个事件") {
 //        });
-<<<<<<< HEAD
-=======
         Red red = applicationContext.getBean(Red.class);
->>>>>>> 12b09ea (关联远程仓库)
         applicationContext.close();
     }
 }
